@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open-sans';
+}
+
+.logo{
+    width: 50px;
+}
+H4{
+    text-align: center;
+  font-family: Arial, Helvetica, sans-serif ;
+ 
+   
+}
+
+
+
+.cards{
+   display: flex;
+   justify-content: center;
+   margin-top: -50px;
+  
+}
+
+.card:hover{
+    box-shadow:  -2px -1px 25px -4px rgb(245, 241, 241);
+    -webkit-box-shadow:-2px -1px 25px -4px rgb(255, 249, 249);
+    -moz-box-shadow: -2px -1px 25px -4px rgb(247, 235, 235);
+    transition: 0.5s;
+}
+
+
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+   background-color: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.lng{
+    background-color: #282A35;
+    width: 1500px;
+}
+
+.card{
+    margin-left: 15px;
+}
+
+.btn{
+    margin-left: 50px;
+}
+
+.login{
+    margin-top: 20px;
+    
+ margin-left: 40%;
+ margin-right: 40%;
+ 
+ 
+}
+
+.cadastro{
+  margin-left: 40%;
+  margin-top: 50px;
+    width: 400px;
+}
+.b:hover{
+    background-color: burlywood;
+}
+
+.linee{
+   
+    display: inline-block;
+}
+
+.conteudo{
+    width: 500px;
+    margin-left: 500px;
+    margin-top: -350px;
+    margin-bottom: 250px;
+    
+}
+
+.cad-form{
+    width: 500px;
+    margin-left: 500px;
+    margin-top: -350px;
+    margin-bottom: 250px;
+    
+}
+
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem 2rem 2rem 2rem;
+}
+.container3 img{
+
+    height: 300px;
+    margin: 9px;
+    border-radius: 15px;
+    width: 270px;
+}
+
+

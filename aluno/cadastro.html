@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="shortcut icon" href="../ico/icone.ico" type="image/x-icon">
+    <title>Programmê</title>
+</head>
+<body>
+
+<!-- Barra de menu -->
+<section class="header">
+
+        
+
+    <nav class="navbar navbar-expand-lg navbar" style="background-color: black;">
+        <div class="container-fluid">
+          <a style="margin-left:5rem ;" class="navbar-brand " href="../index.html">
+          
+          
+          <img src="img/1465612.png" alt="" class="logo">   <span style="color: white; ">Programming Support </span> </a>
+          <button style="background-color: white;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a style="color: white;" class="nav-link hover" href="index.html">SOBRE</a>
+            </li>
+
+            <li class="nav-item">
+              <a style="color: white;" class="nav-link hover" href="linguagem.html">LINGUAGENS DE PROGRAMAÇÃO</a>
+            </li>
+
+            <li class="nav-item">
+              <a style="color: white;" class="nav-link hover" href="ranking.html">RANKING</a>
+            </li>
+
+                <li class="nav-item">
+                    <a style="color: white;" class="nav-link hover" href="cadastro.html">CADASTRAR</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a style="margin-right:5rem ; color: white;" class="nav-link hover" href="login.html">ENTRAR</a>
+                  </li>    
+              
+             
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    
+</section>
+    
+<!--LOGIN-->
+
+<form action="cadastrar.php" method="post"> 
+<div class="cadastro">
+    <h4 class="mb-3">CADASTRO</h4>
+    <div class="row g-3">
+        <div class="col-sm-6">
+          <label for="firstName" class="form-label">Nome Completo</label>
+          <input name="Nome" type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+          <div class="invalid-feedback">
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <label for="lastName" class="form-label">Sexo</label>
+          <input name="sexo" type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+          <div class="invalid-feedback">
+          
+          </div>
+        </div>
+
+
+        <div class="col-12">
+          <label for="email" class="form-label">E-mail <span class="text-muted">(Optional)</span></label>
+          <input name="email" type="email" class="form-control" id="email" placeholder="you@example.com">
+          <div class="invalid-feedback">
+           
+          </div>
+        </div>
+
+        <div class="col-12">
+          <label for="address" class="form-label">Senha</label>
+          <input name="senha" type="password" class="form-control" id="address" placeholder="Password" required="">
+          <div class="invalid-feedback">
+            
+          </div>
+        </div>
+
+       
+
+        <button class="w-100 btn btn-primary btn-lg" style="margin-left: -0%;" type="submit">Cadastrar</button>
+      </div>
+      </div>
+    </form>
+
+
+   <!--cadastro-->
+
+
+
+<!--footer-->
+<div style=" width: auto;">
+  <footer>
+    <div class="b-example-divider" style="background-color: white; width: 100%;">
+      <div class="container" >
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <a href="#" class="card-link"><i class="fa-brands fa-facebook" style="color: black; font-size: 25px; margin: 9px;"></i></i></a>
+            <a href="#" class="card-link"><i class="fa-brands fa-instagram" style="color: black; font-size: 25px; margin: 9px;"></i></i></i></a>
+            <a href="#" class="card-link"><i class="fa-brands fa-linkedin" style="color: black; font-size: 25px; margin: 9px;"></i></a>
+            <a href="#" class="card-link"><i class="fa-brands fa-twitter" style="color: black; font-size: 25px; margin: 9px;"></i></i></i></i></a>
+          </ul>
+          <p class="text-center text-muted">© 2022 Company, Inc</p>
+        </footer>
+      </div>
+    </div>
+  </footer>
+</div>
+  <!--FIM footer-->
+    
+     
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
+
